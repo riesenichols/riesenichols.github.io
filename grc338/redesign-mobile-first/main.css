@@ -1,0 +1,130 @@
+/*CSS DOCUMENT*/
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+ul.a {
+    list-style-type: none;
+    margin-left: auto;
+    margin-right: auto;
+    padding: auto;
+    overflow: hidden;
+    background-color: #333;
+    font-size: 1.2em;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: rgb(255,255,255);
+    text-align: center;
+    text-decoration: none;
+    padding-left: .4em;
+    padding-right: .5em;
+    font-family: baskerville-display-pt, serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+h1 {
+    text-align: center;
+    font-family: baskerville-display-pt, serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+h2 {
+    font-family: baskerville-display-pt, serif;
+    font-weight: 700;
+    font-style: italic;
+    margin-left: 1em;
+    padding-bottom: 0em;
+}
+
+h3 {
+    font-family: baskerville-display-pt, serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: auto;
+}
+
+h4 {
+    font-family: baskerville-display-pt, serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 0em;
+    margin-bottom: 2em;
+}
+
+p {
+    font-family: baskerville-display-pt, serif;
+    font-weight: 400;
+    font-style: italic;
+    margin-bottom: .5em;
+    margin-top: .5em;
+    font-size: 1em;
+}
+
+ul.items {
+   list-style-type: none;
+}
+  
+ul.information {
+    list-style-type: none;
+    
+}
+
+.feedback {
+    text-align: center;
+    margin: auto;
+    margin-top: .75em; 
+    padding: auto;
+}
+
+.feed {
+    text-align: center;
+    margin-top: .5em;
+    margin-bottom: 1em;
+}
+
+.a {
+    margin-left: 2.5em; 
+    margin-top: 0em;
+    margin-bottom: 1em;
+}
+
+.locations {
+    text-align: center;
+    margin: 1em;
+}
+
+.hours {
+    font-size: 1.3em;
+    margin-left: 2em;
+}
+
+.location {
+    margin-left: 1.4em;
+}
